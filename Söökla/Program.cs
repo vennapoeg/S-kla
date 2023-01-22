@@ -32,11 +32,11 @@ class Program
                      "Tee oma valik: 1, 2 või 3");
                 byte selection1 = byte.Parse(Console.ReadLine());
                 if (selection1 == 1)
-                    Console.WriteLine("Sinu valik on Seljanka. Head isu");
+                    Console.WriteLine("Sinu valik: Seljanka. Head isu!");
                 else if (selection1 == 2)
-                    Console.WriteLine("Sinu valik on Kartulipuder ja kotlett. Head isu!");
+                    Console.WriteLine("Sinu valik: Kartulipuder ja kotlett. Head isu!");
                 else if (selection1 == 3)
-                    Console.WriteLine("Sinu valik on Köögiviljalasajne. Head isu!");
+                    Console.WriteLine("Sinu valik: Köögiviljalasajne. Head isu!");
                 else
                     Console.WriteLine("Tee palun oma valik! Valik 1,2 või 3");
                 break;
@@ -44,14 +44,15 @@ class Program
                 //õhtusöök ja selle valikud
             case "öhtusöök":
                 Console.WriteLine("Valisid õhtusöögi.Täna menüüs: \n" + "1.Puljong " +
-                    "ja pirukas\n" + "2.Pannkoogid ja kakao\n" + "3.Poke bowl");
+                    "ja pirukas\n" + "2.Pannkoogid ja kakao\n" + "3.Poke bowl\n"
+                    + "Tee palun oma valik! Valik 1,2 või 3");
                 byte selection2 = byte.Parse(Console.ReadLine());
                 if (selection2 == 1)
-                    Console.WriteLine("Sinu valik on Puljong ja pirukas. Head isu!");
+                    Console.WriteLine("Sinu valik: Puljong ja pirukas. Head isu!");
                 else if (selection2 == 2)
-                    Console.WriteLine("Sinu valik on pannkoogid ja kakao.Head isu!");
+                    Console.WriteLine("Sinu valik: Pannkoogid ja kakao.Head isu!");
                 else if (selection2 == 3)
-                    Console.WriteLine("Sinu valik on Poke bowl. Head isu!");
+                    Console.WriteLine("Sinu valik: Poke bowl. Head isu!");
                 else
                     Console.WriteLine("Tee palun oma valik! Valik 1,2 või 3");
                 break;
